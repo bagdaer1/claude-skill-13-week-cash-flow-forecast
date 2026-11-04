@@ -18,6 +18,7 @@ or upload it as a skill in Claude settings. Then ask: "Build a 13-week cash flow
 
 - **Claude Code:** copy the `13-week-cash-flow-forecast` folder into `~/.claude/skills/` (or `.claude/skills/` in a project), then ask:
   "Build a 13-week cash flow forecast from forecast.csv, opening cash 18,000."
+- **skills CLI** (Claude Code and other agents): `npx skills add https://github.com/bagdaer1/claude-skill-13-week-cash-flow-forecast/tree/main/13-week-cash-flow-forecast`
 - **Claude apps:** zip the `13-week-cash-flow-forecast` folder and upload it as a skill in Claude settings.
 - **Without Claude:** `python3 13-week-cash-flow-forecast/scripts/roll_forward.py forecast.csv --opening 18000`
 
